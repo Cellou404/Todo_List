@@ -11,15 +11,18 @@ Create, Update and Delete your tasks
 
 4- Install the requirements
    >python -m pip install -r requirements.txt
-   or
+   >or
+   >
    $python3 -m pip install -r requirements.txt
    
 5- Enter these code:
    >python manage.py makemigrations
+   >
    >python manage.py migrate
   
 6- And then, create a superuser
    >python manage.py createsuperuser
+   >
    follow the instructions
   
 7- Run the server and enjoy it
